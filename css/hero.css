@@ -1,0 +1,18 @@
+section .hero-section {
+  width: 80%;
+  margin: 0;
+}
+section .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  align-items: center;
+  width: 450px;
+  height: 50vh;
+  margin: 2px 0;
+}
+section .flex .box {
+  background-color: orange;
+}
