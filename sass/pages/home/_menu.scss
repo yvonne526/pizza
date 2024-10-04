@@ -1,0 +1,41 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+.containerr {
+  @include flex(center, center, column);
+  .new {
+    list-style: underlined;
+    justify-content: space-between;
+  }
+ 
+}
+new {
+  
+  ul { 
+    @include flex(flex-start, column);
+    li {
+      a {
+        display: inline-block;
+        &hover{
+            color:white;
+            background-color:$primary-color;
+            
+    }
+}
+    .item-wan{
+    display: flex;
+    }
+}
+  }
+}
+
+.items-wan{
+    @include flex(space-between, center);
+    margin-top: 1em;
+}
+.btn-view{
+    @include flex(center,center);
+    background-color: orange;
+    border-radius: 7px;
+    padding:7px;
+    border:none;
+}
